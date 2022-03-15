@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    width:90% ;
+    max-width: 350px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px 20px 20px;
+}
+.image img {
+    width: 310px;
+}
+.image img:hover {
+    color: cyan;
+    cursor: grabbing;
+}
+.content p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%) ;
+    line-height: 25px;
+    padding-top: 15px;
+}
+h3{
+    color: hsl(0, 0%, 100%);
+    padding-top: 15px;
+}
+h3:active{
+    color: cyan;
+    cursor: grabbing;
+}
+.content-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+}
+.content-2 img{
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    width: 30px;
+}
+.content-2 p{
+    color: hsl(0, 0%, 100%);
+    padding-right: 10%;
+}
+.content-2 span{
+    color: hsl(215, 51%, 70%) ;
+}
+.content-2 p:active{
+    color: cyan;
+    cursor: grabbing;
+}
+.span{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.span .span-1{
+    color: hsl(178, 100%, 50%);
+}
+.span .span-2{
+    color: hsl(215, 51%, 70%);
+}
